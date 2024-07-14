@@ -11,22 +11,6 @@ Maven
 Chrome WebDriver (ensure it's added to your system PATH)
 Eclipse
 
-**Project design**
-│   ├── main
-│   │   java
-│   │    └── BasePck
-│   │   │       └── BasePage.java
-│   ├── test
-│   │   ├── java
-│   │      ├── StepDefinations
-│   │      │    Steps.java
-│   │      ├── TestRunner
-│   │      │    TestRunner.java
-│   │   ── resources
-│   │       features
-│   │          AddDelete.feature
-└── pom.xml
-
 **Run**
 
 1.Open TestRunner class
