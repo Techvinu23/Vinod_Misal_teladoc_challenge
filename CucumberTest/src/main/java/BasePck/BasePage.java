@@ -9,8 +9,7 @@ public class BasePage {
 	WebDriver driver;
    public BasePage(WebDriver driver) {
 	   this.driver=driver;
-   }
-   
+   }   
    public void addUser(String FName,String LName,String UName,String Password,String email) {
 	   driver.findElement(By.xpath("//*[text()=' Add User']")).click();
 	   driver.findElement(By.cssSelector("input[name='FirstName']")).sendKeys(FName);
