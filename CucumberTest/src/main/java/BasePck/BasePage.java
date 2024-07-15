@@ -24,6 +24,7 @@ public class BasePage {
 	   driver.findElement(By.xpath("//input[@name='Mobilephone']")).sendKeys("9858640000");
 	   driver.findElement(By.xpath("//button[text()='Save']")).click();
    }
+   
    public boolean isUserExist(String userName) {
 	   try {
 	   driver.findElement(By.xpath("//td[text()='" +userName+ "']"));
